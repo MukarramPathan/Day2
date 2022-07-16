@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2</title>
+</head>
+<body>
+    <h2>Ordered list with roman numbers</h2>
+
+    <ol type="I">
+       <li>Mango</li>
+       <li>Banana</li>
+       <li>Strawberrry</li>
+       <li>Apple</li>
+    </ol>
+
+    <h2>Write code to creat an unordered list with circle</h2>
+
+    <ul tpye="disk">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+    </ul>
+
+    <h2>Write  a code to create a link to https:/prepbytes.com</h2>
+
+
+    <a href="https://www.prepbytes.com/">link</a>
+
+    <h2>Write a code to insert an image</h2>
+
+
+    <!-- using a web link -->
+    <img src="https://cdn.britannica.com/37/135437-050-A12461CC/Burj-Khalifa-world-Sheikh-Khalifah-ibn-Zayid-2010.jpg" width="40%" height="400px">
+    <!-- using a saves file -->
+    <br><br>
+    <img src="./tajmahal.jpg" width="50%"alt="">
+
+    <br>
+
+
+    <h2>Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this.</h2> 
+
+    <table border="2px">
+        <tr>
+            <th>Name</th>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <th>Salary</th>
+            <td>100k</td>
+        </tr>
+    </table>
+
+
+    <h2>Create a form contain input fields like name age email and contact</h2> 
+
+    <form action="">
+        <label for="name">Full Name:</label>
+        <input type="text" value="" id="name" name="name" placeholder="Full Name"> <br> <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" value="" name="Age" placeholder="Your Age"> <br> <br>
+
+        <label for="emal">Email:</label>
+        <input type="email" id="emal" value="" name="email" placeholder="your email"> <br> <br>
+
+        <label for="contact">Contact Number: </label>
+        <input type="text" id="contact" value="" name="contact" placeholder="your phone number"> <br> <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <h2>Create a table and explain how to achieve colspan </h2>
+
+    <table border="3px">
+        <tr>
+            <th>Name</th>
+            <th>College</th>
+        </tr>
+
+        <tr>
+            <td>Mukarram Ali Khan</td>
+            <td>Invertis University, Bareilly</td>>
+        </tr>
+
+        <tr>
+            <td colspan="2">XYZ</td>
+            <!-- <td>Invertis University, Bareilly</td> -->
+        </tr>
+    </table>
+
+
+    <h2>Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h2>   
+
+    <form action="">
+        <label for="course">MERN</label>
+        <input type="radio" value="MERN" name="Course" id="course">
+        <br>
+        <label for="course1">MEAN</label>
+        <input type="radio" value="MERN" name="Course" id="course1">
+        <br> <br> <br> <br>
+        <label for="ht">HTML</label>
+        <input type="checkbox" value="HTML" name="technology" id="ht" required>
+        <br>
+        <label for="cs">CSS</label>
+        <input type="checkbox" value="CSS" name="technology" id="cs">
+        <br>
+        <label for="re">React</label>
+        <input type="checkbox" value="React" name="technology" id="re">
+        <br>
+        <label for="nod">Node</label>
+        <input type="checkbox" value="Node" name="technology" id="nod">
+        <br> <br>
+        <input type="submit" value="Submit">
+        <br>
+    </form>
+
+</body>
+</html>
